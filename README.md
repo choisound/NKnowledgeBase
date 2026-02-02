@@ -2,6 +2,43 @@
 
 用作定期更新及梳理个人知识库，便于个人复盘以及知识体系化。
 
+## 目录
+
+
+### 网络协议
+
+* [havip源码](方案文档/网络/havip和keepalived源码/havip.md)
+* [keepalived源码](方案文档/网络/havip和keepalived源码/keeperalive.md)
+* [ICMP协议与应用](方案文档/网络/icmp协议与其应用/icmp协议与应用.md)
+* [Https协议](方案文档/网络/https协议/https.md)
+* [RPC协议一](方案文档/网络/rpc/rpc.md)
+* [RPC协议二](方案文档/网络/rpc/rpc-2.md)
+* [RPC协议三](方案文档/网络/rpc/rpc-3.md)
+* [VRRP协议](方案文档/网络/vrrp协议/vrrp协议.md)
+* [quic协议](方案文档/网络/quic协议/quic.xmind)
+
+### 组件相关
+
+* [nginx 1](组件/nginx/事件驱动模型.md)
+* [nginx 2](组件/nginx/数据结构设计.md)
+* [Nacos](组件/发现与注册/nacos.md)
+* [消息队列](组件/消息队列/消息队列.md)
+* [一致性协议](组件/一致性协议/一致性协议.md)
+* [Prometheus](组件/监控运维组件/Prometheus.xmind)
+* [redis](组件/redis/redis.md)
+* [mysql](组件/mysql/mysql.md)
+* [Kubernates](组件/kubernates/Kubernates.xmind)
+
+### 方案文档
+
+* [实时中台](方案文档/实时中台/实时方案.md)
+
+### 业务知识
+
+码头业务知识:[业务知识](业务知识)
+
+[码头业务及其智能化](应用场景/港口方案/码头业务及其智能化学习笔记.pdf)
+
 ## 电子书
 
 电子书分类为操作系统、分布式原理、公共组件、计算机网络、思维与沟通、算法和数学几个模块。
@@ -70,75 +107,6 @@
 
 [《能力陷阱》](电子书/思维和沟通/能力陷阱.pdf)
 
-## 文档整理
 
-### 实时中台
 
-[实时中台](方案文档/实时中台/实时方案.md)
 
-### HTTPS证书
-
-[HTTPS证书](方案文档/https证书/证书梳理.md)
-
-### 网络
-
-[ICMP](方案文档/网络/icmp协议与其应用/icmp协议与应用.md)
-
-[Https](方案文档/网络/https协议/https.md)
-
-[VRRP](方案文档/网络/vrrp协议/vrrp协议.md)
-
-[Keepalive](方案文档/网络/havip和keepalived源码/keeperalive.md)
-
-[Havip](方案文档/网络/havip和keepalived源码/havip.md)
-
-RPC协议
-[RPC协议-1](方案文档/网络/rpc/rpc.md)
-
-[RPC协议-2](方案文档/网络/rpc/rpc.md)
-
-[RPC协议-3](方案文档/网络/rpc/rpc.md)
-
-### Mysql
-
-[整体思维导图PDF](方案文档/mysql/mysql思维导图.pdf)
-
-![整体思维导图](方案文档/mysql/mysql.png)
-
-[InnoDB体系结构](方案文档/mysql/Innodb体系架构.docx)
-
-[索引与原理](方案文档/mysql/mysql索引与算法.pdf)
-
-[DoubleWrite](方案文档/mysql/doublewrite.pdf)
-
-[锁基础知识](方案文档/mysql/Mysql锁基础知识.docx)
-
-[锁详解](方案文档/mysql/锁.pdf)
-
-[分布式事务相关](方案文档/mysql/分布式事务解决方案.docx)
-
-[mysql事物](方案文档/mysql/mysql事务.pdf)
-
-[sql语句优化](方案文档/mysql/MYSQL语句优化相关.docx)
-
-### Nginx源码分析
-
-[事件驱动模型](方案文档/nginx/事件驱动模型.pdf)
-
-[数据结构设计](方案文档/nginx/数据结构设计.pdf)
-
-## 应用场景
-
-### CDN
-
-* [域名归属权认证](应用场景/CDN/域名归属权认证/域名所有权认证.md)
-* 域名配置
-* 缓存策略
-* 调度策略
-* 预热方案
-* 图片处理
-* 证书管理
-
-### 港口码头业务
-
-[码头业务及其智能化](应用场景/港口方案/码头业务及其智能化学习笔记.pdf)
